@@ -7,6 +7,7 @@ pip install -r requirments.txt
 ```
 
 activate virtual enviroments
+
 ```zsh
 python3 -m venv env
 # Ubuntu 20.04 or WSL2 with same distro
@@ -14,7 +15,9 @@ source env/bin/activate
 ```
 
 ## Ubuntu 20.04 or WSL2
+
 install prerequisite:
+
 ```zsh
 sudo apt-get update
 sudo apt-get -y upgrade
@@ -23,3 +26,15 @@ sudo apt install build-essential libssl-dev libffi-dev python3-dev
 ```
 
 ## Windows
+
+```powershell
+# Install Virual Enviroment
+python -m pip install --upgeade pip
+pip install virtualenv
+# Create new directory with virtual enviroment
+virtualenv env
+# start virtual env - activate
+env\Scripts\activate.bat
+# deactivate
+deactivate
+```
