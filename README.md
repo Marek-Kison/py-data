@@ -29,7 +29,7 @@ sudo apt install build-essential libssl-dev libffi-dev python3-dev
 
 ```powershell
 # Install Virual Enviroment
-python -m pip install --upgeade pip
+python -m pip install --upgrade pip
 pip install virtualenv
 # Create new directory with virtual enviroment
 virtualenv env
